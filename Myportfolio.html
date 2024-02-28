@@ -1,0 +1,198 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Dosis', sans-serif;
+            color: #000;
+            background-image: url('https://i.pinimg.com/originals/0d/6a/30/0d6a30946011a7a625582bc8fa5e6580.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-color: rgba(248, 249, 250, 0.9);
+        }
+        img{
+          height: 80px;
+          width: 90px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+        }
+        .card {
+            border: none;
+            background-color: #ffffff;
+            box-shadow: 0px 10px 30px #8a2be2;
+            padding: 30px;
+            margin-bottom: 30px; 
+            opacity: 1; 
+        }
+        .btn {
+            background-color: #6c757d;
+            color: #ffffff;
+        }
+        .btn:hover {
+            background-color: #495057;
+            color: #ffffff;
+        }
+        header {
+            background-color: #8a2be2;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            display: flex;
+            justify-content: space-between; 
+        }
+        .navbar {
+            text-align: right;
+        }
+        footer {
+            background-color: #8a2be2;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            margin-top: 50px;
+        }
+     
+        #home, #education, #projects, #skills, #certifications {
+            padding: 20px; 
+            background-color: rgba(255, 255, 255, 0.9); 
+            border-radius: 5px; 
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); 
+        }
+       
+        #home h3, #education h3, #projects h3, #skills h3, #certifications h3 {
+            margin-bottom: 20px; 
+            color: #8a2be2; 
+        }
+        
+        #home p, #education p, #projects p, #skills p, #certifications p {
+            line-height: 1.5; 
+            color: #555;
+        }
+        h2{
+          color:  #8a2be2; 
+        }
+    </style>
+</head>
+<body>
+<header>
+   
+    <div class="logo">
+        <img src="file:///C:/Users/Admin/Downloads/pngwing.com.png" alt="Logo">
+    </div>
+   
+    <h1>Portfolio</h1>
+    <nav class="navbar">
+        <ul class="nav">
+            <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+            <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+            <li class="nav-item"><a href="#certifications" class="nav-link">Certifications</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Contact Me</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="container">
+    
+    <article>
+     <div class="card" id="home" style="margin-top: 50px;">
+          <h2>Hi! <br> I am Shanmuga Sanjeevi PS</h2>
+         <h3>Welcome to my portfolio!</h3>
+         <p>I am a dedicated and passionate data analyst with a knack for uncovering hidden patterns and valuable insights. With my technical expertise, analytical mindset, and strong communication skills, I am poised to make a significant impact in the field of data analysis.</p>
+         <p>Thank you for taking the time to learn more about me. I look forward to connecting and collaborating on exciting data-driven projects in the future!</p>
+     </div>
+ </article>
+    <article>
+        <div class="card" id="education">
+            <h3>Education</h3>
+            <p>Bachelor of Engineering - BE in Electronics and communication</p>
+            <p>Sri Eshwar College of Engineering • 01/2022 - Present</p>
+            <p>Skills: Supervised machine Learning · C (Programming Language) · Python (Programming Language) · Problem Solving</p>
+            <p>Vedic Vidyashram CBSE School • Tirunelveli</p>
+            <p>SSLC-86.6%</p>
+            <p>HSC-83.6%</p>
+        </div>
+    </article>
+    <article>
+        <div class="card" id="projects">
+            <h3>Projects</h3>
+            <p>Heart Attack Prediction</p>
+            <p>Utilized Python to develop accurate machine learning models for predicting heart attacks based on health parameters. Achieved 88% through meticulous data analysis, feature engineering, and model fine-tuning. Demonstrates proficiency in data science and applying technology to healthcare challenges.</p>
+        </div>
+    </article>
+    <article>
+        <div class="card" id="certifications">
+            <h3>Certifications</h3>
+            <p>Data Manipulation in Python: Master Python, Numpy & Pandas <span class="float-right">Udemy • 01/2024 - Present</span></p>
+            <p>Data Visualization using Tableau <span class="float-right">Great Learning • 01/2024 - Present</span></p>
+            <p>Supervised Machine Learning: Regression and Classification <span class="float-right">DeepLearning.AI, Stanford University • 12/2023 - Present</span></p>
+        </div>
+    </article>
+    <article>
+        <div class="card" id="skills">
+            <h3>Skills</h3>
+            <p>C (Programming Language), Data Visualization, Logistic Regression, Naive Bayes, Predictive Modelling, Python, Regression Analysis, Statistics, Supervised machine Learning, Support Vector Machines (SVM)</p>
+        </div>
+    </article>
+</div>
+<footer  id="contact">
+    <p>Coimbatore • 6381452263 • shanmugasanjeevi.ps2022ece@sece.ac.in</p>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+      
+        $('a').click(function (e) {
+           
+            if ($(this).attr('href').charAt(0) == '#') {
+                e.preventDefault(); 
+
+            
+                $('html, body').animate({
+                    scrollTop: $($(this).attr('href')).offset().top 
+                }, 500); 
+            }
+        });
+
+      
+        var $animation_elements = $('.card');
+        var $window = $(window);
+
+        function check_if_in_view() {
+            var window_height = $window.height();
+            var window_top_position = $window.scrollTop();
+            var window_bottom_position = (window_top_position + window_height);
+
+            $.each($animation_elements, function () {
+                var $element = $(this);
+                var element_height = $element.outerHeight();
+                var element_top_position = $element.offset().top;
+                var element_bottom_position = (element_top_position + element_height);
+
+                
+                if ((element_bottom_position >= window_top_position) &&
+                    (element_top_position <= window_bottom_position)) {
+                    $element.addClass('in-view');
+                } else {
+                    $element.removeClass('in-view');
+                }
+            });
+        }
+
+        $window.on('scroll resize', check_if_in_view);
+        $window.trigger('scroll');
+    });
+</script>
+</body>
+</html>
